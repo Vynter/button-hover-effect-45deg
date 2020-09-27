@@ -20,12 +20,12 @@
     height: 60px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
     background: rgb(50, 40, 30);
     border: rgb(165, 124, 43) 4px solid;
     color: rgb(165, 124, 43);
     border-radius: 2px;
     cursor: pointer;
+    margin: 10px
 }
 
 .btn::before, .btn::after {
@@ -54,4 +54,10 @@
 
 .btn:hover.btn::after {
     right: 90%;
+}
+
+#second {
+    background: rgb(50, 40, 30);
+    border: rgba(165, 43, 165, 0.8) 4px solid;
+    color: rgba(165, 43, 165, 1)
 }
